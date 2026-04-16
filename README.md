@@ -1,1 +1,25 @@
-# ECE445labnotebook
+# ECE445 lab notebook
+
+# WEEK 1 2/9
+
+# WEEK 2 2/16
+
+# WEEK 3 2/23
+
+# WEEK 4 3/2
+
+# WEEK 5 3/9
+
+# WEEK 6 3/16
+
+# WEEK 7 3/23
+
+# WEEK 8 3/30
+
+# WEEK 9 4/6
+
+# WEEK 10 4/13
+
+# WEEK 11 4/20
+
+# WEEK 12 4/27
