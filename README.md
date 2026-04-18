@@ -28,15 +28,17 @@
 4. continuing to learn software
 ## WEEK 6 3/16
 1. spring break so finished my course in the nRF SDK connect
-2. 
 ## WEEK 7 3/23
-
+1. prepare for progress demo with ppg sensor testing it using a light to show the waves on the phone app
+2. continuing testing on daily basis for trying to implemenet full bug software
 ## WEEK 8 3/30
 
 ## WEEK 9 4/6
 
 ## WEEK 10 4/13
-
+1. encountering major noise from the ppg sensor on all pulse readings
+2. tried testing outside the lab because thought the noise was from the sockets in the room but no better
+3. trying to use python now to see the clear wave peaks
 ## WEEK 11 4/20
 
 ## WEEK 12 4/27
