@@ -28,17 +28,26 @@
 4. continuing to learn software
 ## WEEK 6 3/16
 1. spring break so finished my course in the nRF SDK connect
+2. double checked the schematics for the ecg
+3. changed some minor things in the ppg sensor design with long squiggle lines holding the photdioode resistors next to our earlobes and this way the PCB is a little more stretchable
 ## WEEK 7 3/23
 1. prepare for progress demo with ppg sensor testing it using a light to show the waves on the phone app
-2. continuing testing on daily basis for trying to implemenet full bug software
+2. continuing testing on daily basis for trying to implemenet full software to work with fingers
 ## WEEK 8 3/30
-
+1. when using fingers too much noise is being shown on the plot and we are in the process of trying to identift the root cause of the issue
+2. performing root cause analysis to determine what is causing all the other noise
+3. connect ppg via phone app for the progress demo
 ## WEEK 9 4/6
-
+1. progress demo done showed PPG working with flashlight rather than fingers to show peaks of the wave
+2. our testing has revealed that the long squiggle lines and putting the MAX chips so far away from the PDRs was a possible cause of the large noise readings
+3. redesigned a new board unfortunately deadline passed but removed the long squiggling lines
+4. trying to fix software and added filters which made the light very clear and identifable but fingers were showing no values
+5. the main issue we have identified from our testing seems to be the potential difference supplied to the PDR is incorrect
 ## WEEK 10 4/13
 1. encountering major noise from the ppg sensor on all pulse readings
 2. tried testing outside the lab because thought the noise was from the sockets in the room but no better
-3. trying to use python now to see the clear wave peaks
+3. hoping newly designed PCB arrives quickly working with old iteration to make sure the software has no issues
+4. had to fix entire config file since register values were incorrect for all of them
 ## WEEK 11 4/20
 
 ## WEEK 12 4/27
