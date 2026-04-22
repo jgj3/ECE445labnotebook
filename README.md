@@ -49,5 +49,6 @@
 3. hoping newly designed PCB arrives quickly working with old iteration to make sure the software has no issues
 4. had to fix entire config file since register values were incorrect for all of them
 ## WEEK 11 4/20
-
+1. preparing for mock presentation with doing slideshow
+2. had mock demo during the week with shiyuan showed him the ecg sensor
 ## WEEK 12 4/27
