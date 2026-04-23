@@ -51,4 +51,5 @@
 ## WEEK 11 4/20
 1. preparing for mock presentation with doing slideshow
 2. had mock demo during the week with shiyuan showed him the ecg sensor
+3. new ppg board delievered and sodering complete conducting testing over the weekend
 ## WEEK 12 4/27
