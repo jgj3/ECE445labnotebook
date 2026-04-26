@@ -52,4 +52,6 @@
 1. preparing for mock presentation with doing slideshow
 2. had mock demo during the week with shiyuan showed him the ecg sensor
 3. new ppg board delievered and sodering complete conducting testing over the weekend
+4. PPG does not work lights from PDR not showing up out of ideas
+5. ECG sensor working perfectly trying to encapsulate it
 ## WEEK 12 4/27
