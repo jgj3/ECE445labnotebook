@@ -59,3 +59,6 @@
 2. preparing a second mock presentation to show our TA on thursday
 3. tried till monday last minute to try and fix the ppg but it didnt work
 4. we encapsulated the entire ecg sensor with foam and connected pin up electrodes
+5. our presentation is ready for next weeks presentation
+6. doing final paper
+7. preparing lab notebooks
