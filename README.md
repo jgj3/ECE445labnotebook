@@ -1,76 +1,97 @@
-# ECE445 lab notebook
+# ECE445 Lab Notebook
 
-## WEEK 1 2/9
-1. completed the CAD sodering assignment
-2. had first meeting with TA discussing project scope and how exactly the sensors work
-3. researched MAX 86141 and SFH 7050 to see how the chips function 
-4. wrote up the proposal
-5. ![pqrst wave.png] (this is the ekg wave that we have to try to calculate the heart rate from)
-## WEEK 2 2/16
-1. started a course in nRF SDK connect online and learning how to code via nordic semiconductor
-2. wrote up the team contract
-3. preparing both pcbs for reviews working on the schematic
-4. preparing for breadboard demo with having to find a way to show the circuit
-## WEEK 3 2/23
-1. wrote the design document for the whole week
-2. finished up schematics with teammates and got it checked by TA
-3. ! [max86.png] (ecg schmeatic for max 30003 chip on ecg sensor)
-4. ! [nrf sch.png] (nrf schematic part of ecg)
-5. started editing board layout and assigning footprints to all chips
-6. first round of ecg completed and ordered
-7. Designed breakout boards since PPG will not arrive
-## WEEK 4 3/2
-1. prepare for design review iron out any other details
-2. test ecg sensor to prepare for breadboard demo
-3. breakout boards didnt arrive in time for the breadboard demo so luckily we were able to pivot to our ecg sensor that arrived
-4. we tested our ecg using a waveform generator to show the wave connected via matlab
-5. ![ecg full.jpg] (This is our complete ecg) 
-## WEEK 5 3/9
-1. complete teamwork evaluation
-2. began to find alternative connections methods using vsc
-3. ordered ppg sensor redesigned board because we wanted to connect the two ppg sensors as one to use only one nRF chip for both of the ppg sensors
-4. continuing to learn software
-## WEEK 6 3/16
-1. spring break so finished my course in the nRF SDK connect
-2. ! [nrfcard.png] (certificate of completion of the course)
-3. double checked the schematics for the ecg
-4. ! [ecg pcb.png] (pcb placing for the ecg)
-5. changed some minor things in the ppg sensor design with long squiggle lines holding the photdioode resistors next to our earlobes and this way the PCB is a little more stretchable
-6. ! [snakyppgdesign.png] (serpentine wire iteration design)
-## WEEK 7 3/23
-1. prepare for progress demo with ppg sensor testing it using a light to show the waves on the phone app
-2. continuing testing on daily basis for trying to implemenet full software to work with fingers
-3. ![ppg data.png] (showing how the data is very noisy)
-## WEEK 8 3/30
-1. when using fingers too much noise is being shown on the plot and we are in the process of trying to identift the root cause of the issue
-2. performing root cause analysis to determine what is causing all the other noise
-3. connect ppg via phone app for the progress demo
-4. ![ppg full.jpg] (current iteration of the ppg board)
-## WEEK 9 4/6
-1. progress demo done showed PPG working with flashlight rather than fingers to show peaks of the wave
-2. our testing has revealed that the long squiggle lines and putting the MAX chips so far away from the PDRs was a possible cause of the large noise readings
-3. redesigned a new board unfortunately deadline passed but removed the long squiggling lines
-4. trying to fix software and added filters which made the light very clear and identifable but fingers were showing no values
-5. the main issue we have identified from our testing seems to be the potential difference supplied to the PDR is incorrect
-6. ! [ppg tab.png] (this seems to be an issue with routing with our pdr)
-## WEEK 10 4/13
-1. encountering major noise from the ppg sensor on all pulse readings
-2. tried testing outside the lab because thought the noise was from the sockets in the room but no better
-3. hoping newly designed PCB arrives quickly working with old iteration to make sure the software has no issues
-4. had to fix entire config file since register values were incorrect for all of them
-## WEEK 11 4/20
-1. preparing for mock presentation with doing slideshow
-2. had mock demo during the week with shiyuan showed him the ecg sensor
-3. new ppg board delievered and sodering complete conducting testing over the weekend
-4. PPG does not work lights from PDR not showing up out of ideas
-5. ECG sensor working perfectly trying to encapsulate it
-6. ! [waveform.png] (the complete working ecg pcb showing on the website we designed to calculate the PTT)
-## WEEK 12 4/27
-1. had final demo hopefully went well
-2. preparing a second mock presentation to show our TA on thursday
-3. tried till monday last minute to try and fix the ppg but it didnt work
-4. we encapsulated the entire ecg sensor with foam and connected pin up electrodes
-5. our presentation is ready for next weeks presentation
-6. doing final paper
-7. ! [solder issue.png] (this is one of the core issues we found with the ppg in terms of grounding the pins effectively)
-8. preparing lab notebooks
+## WEEK 1 — 2/9
+1. Completed the CAD soldering assignment
+2. Had first meeting with TA discussing project scope and how exactly the sensors work
+3. Researched MAX86141 and SFH-7050A to see how the chips function
+4. Wrote up the proposal
+
+![PQRST Wave — the ECG wave used to calculate heart rate](images/pqrst_wave.png)
+
+## WEEK 2 — 2/16
+1. Started a course in nRF Connect SDK online, learning to code via Nordic Semiconductor
+2. Wrote up the team contract
+3. Preparing both PCBs for reviews, working on the schematic
+4. Preparing for breadboard demo — finding a way to show the circuit
+
+## WEEK 3 — 2/23
+1. Wrote the design document for the whole week
+2. Finished up schematics with teammates and got it checked by TA
+3. Started editing board layout and assigning footprints to all chips
+4. First round of ECG board completed and ordered
+5. Designed breakout boards since PPG board will not arrive in time
+
+![ECG Schematic — MAX30003 chip on ECG sensor](images/max86.png)
+
+![NRF Schematic — NRF52840 portion of ECG board](images/nrf_sch.png)
+
+## WEEK 4 — 3/2
+1. Prepared for design review, ironed out remaining details
+2. Tested ECG sensor to prepare for breadboard demo
+3. Breakout boards didn't arrive in time — pivoted to ECG sensor that did arrive
+4. Tested ECG using a waveform generator connected via MATLAB
+
+![Complete ECG Board — first hardware iteration](images/ecg_full.jpg)
+
+## WEEK 5 — 3/9
+1. Completed teamwork evaluation
+2. Began finding alternative connection methods using VSCode
+3. Ordered redesigned PPG sensor board — consolidated two PPG sensors onto one board using a single NRF52840
+4. Continuing to learn firmware software
+
+## WEEK 6 — 3/16
+1. Spring break — finished nRF Connect SDK online course
+2. Double-checked ECG schematics
+3. Changed PPG sensor design: added long serpentine traces to keep photodiode resistors near earlobes, making the PCB more flexible and wearable
+
+![nRF Connect SDK Certificate of Completion](images/nrfcard.png)
+
+![ECG PCB Layout — component placement](images/ecg_pcb.png)
+
+![Serpentine Wire PPG Design Iteration](images/snakyppgdesign.png)
+
+## WEEK 7 — 3/23
+1. Prepared for progress demo — tested PPG sensor using a flashlight to show peaks on phone app
+2. Continuing daily testing trying to implement full software working with finger measurements
+
+![PPG Data — showing high noise levels on raw signal](images/ppg_data.png)
+
+## WEEK 8 — 3/30
+1. Finger measurements showing too much noise on the plot — performing root cause analysis
+2. Connected PPG via phone app for the progress demo
+
+![PPG Board — current hardware iteration](images/ppg_full.jpg)
+
+## WEEK 9 — 4/6
+1. Progress demo completed — showed PPG working with flashlight to demonstrate waveform peaks
+2. Testing revealed that the long serpentine traces and placing MAX86141 far from the photodiode were likely causing the large noise readings
+3. Redesigned a new board removing the serpentine traces (deadline had passed but submitted anyway)
+4. Added software filters which made the flashlight signal clear but finger readings still showed no valid values
+5. Main suspected issue: incorrect potential difference supplied to the photodiode
+
+![PPG Photodiode Routing Issue — suspected PCB routing problem near PDR](images/ppg_tab.png)
+
+## WEEK 10 — 4/13
+1. Encountering major noise on all PPG pulse readings
+2. Tested outside the lab to rule out lab socket interference — no improvement
+3. Waiting for newly designed PCB; continuing to validate software on old iteration
+4. Fixed entire MAX86141 config file — register values were all incorrect
+
+## WEEK 11 — 4/20
+1. Prepared mock presentation slideshow
+2. Mock demo with TA Shiyuan — demonstrated ECG sensor
+3. New PPG board delivered, soldering completed, conducted testing over the weekend
+4. PPG still not working — LEDs on the photodiode not lighting up, out of debugging ideas
+5. ECG sensor working perfectly — began encapsulating it
+
+![Working ECG Waveform — displayed on companion web app with PTT calculation](waveform.png)
+
+## WEEK 12 — 4/27
+1. Final demo completed
+2. Prepared second mock presentation for TA on Thursday
+3. Attempted last-minute PPG fixes through Monday — unsuccessful
+4. Encapsulated the complete ECG sensor with foam and connected pin-up electrodes
+5. Final presentation ready for next week
+6. Working on final paper and lab notebook
+
+![PPG Solder Mask Issue — grounding pin defect identified as core PPG failure cause](images/solder_issue.png)
