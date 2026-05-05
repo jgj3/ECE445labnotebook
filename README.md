@@ -21,6 +21,7 @@
 2. test ecg sensor to prepare for breadboard demo
 3. breakout boards didnt arrive in time for the breadboard demo so luckily we were able to pivot to our ecg sensor that arrived
 4. we tested our ecg using a waveform generator to show the wave connected via matlab
+5. ! <img width="682" height="839" alt="connect" src="https://github.com/user-attachments/assets/efb3855c-cdef-4f30-931e-2630643d85d1" />
 ## WEEK 5 3/9
 1. complete teamwork evaluation
 2. began to find alternative connections methods using vsc
