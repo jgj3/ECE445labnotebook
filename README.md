@@ -23,7 +23,7 @@
 
 ![ECG Schematic — MAX30003 chip on ECG sensor](images/max86.png)
 
-![NRF Schematic — NRF52840 portion of ECG board](images/nrf_sch.png)
+![NRF Schematic — NRF52840 portion of ECG board](nrf_sch.png)
 
 ## WEEK 4 — 3/2
 1. Prepared for design review, ironed out remaining details
